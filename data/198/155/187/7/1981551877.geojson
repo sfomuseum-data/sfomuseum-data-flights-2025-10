@@ -2,10 +2,12 @@
   "id": 1981551877,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-02",
+    "date:cessation_upper": "2025-10-02",
     "date:inception_lower": "2025-10-01",
     "date:inception_upper": "2025-10-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-01",
+    "edtf:cessation": "2025-10-01T17:28:50-07:00",
+    "edtf:inception": "2025-10-01T00:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251001-A-AAL-7569",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N494AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "112176901"
+    },
     "wof:country": "US",
     "wof:created": 1759421009,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1981551877,
     "wof:involves": [
+      1377564285,
       102527513,
       102530741,
       1159283813,
       1947304293,
       1159283849
     ],
-    "wof:lastmodified": 1759421009,
+    "wof:lastmodified": 1759421839,
     "wof:name": "AS249 (BOS-SFO)",
     "wof:parent_id": 1947304293,
     "wof:placetype": "custom",

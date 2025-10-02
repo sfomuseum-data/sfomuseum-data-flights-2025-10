@@ -2,10 +2,12 @@
   "id": 1981556229,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-01",
+    "date:cessation_upper": "2025-10-01",
     "date:inception_lower": "2025-10-01",
     "date:inception_upper": "2025-10-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-01",
+    "edtf:cessation": "2025-10-01T19:24:27Z",
+    "edtf:inception": "2025-10-01T00:19:27-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.859366,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102528943,
     "sfomuseum:base_flight_id": "20251001-D-HAL-7790",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N568AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +61,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "112204873"
+    },
     "wof:country": "US",
     "wof:created": 1759421508,
     "wof:geomhash": "a2498fe603884edb23014f03e0e3c121",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1981556229,
     "wof:involves": [
+      1159289871,
       102528943,
       102527513,
       1159283813,
       1947304263,
       1159284489
     ],
-    "wof:lastmodified": 1759421508,
+    "wof:lastmodified": 1759421848,
     "wof:name": "AS790 (SFO-LIH)",
     "wof:parent_id": 1947304263,
     "wof:placetype": "custom",

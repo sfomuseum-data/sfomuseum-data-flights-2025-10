@@ -2,10 +2,12 @@
   "id": 1981554191,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-01",
+    "date:cessation_upper": "2025-10-01",
     "date:inception_lower": "2025-10-01",
     "date:inception_upper": "2025-10-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-01",
+    "edtf:cessation": "2025-10-01T14:41:00Z",
+    "edtf:inception": "2025-10-01T03:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-10-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.0794145,
     "geom:longitude": -2.117622499999996,
     "iata:airline": "UA",
+    "icao:aircraft": "B773",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104579,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102550865,
@@ -48,6 +52,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "112189723"
+    },
     "wof:country": "US",
     "wof:created": 1759421274,
     "wof:geomhash": "9b7a8ac18e2e6d9aa22af32dfdd43b07",
@@ -83,12 +90,13 @@
     ],
     "wof:id": 1981554191,
     "wof:involves": [
+      1528104579,
       102527513,
       102550865,
       1159285413,
       1947304147
     ],
-    "wof:lastmodified": 1759421274,
+    "wof:lastmodified": 1759421856,
     "wof:name": "UA3870 (XMN-SFO)",
     "wof:parent_id": 1947304147,
     "wof:placetype": "custom",

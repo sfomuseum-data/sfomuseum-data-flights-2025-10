@@ -2,10 +2,12 @@
   "id": 1981552481,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-01",
+    "date:cessation_upper": "2025-10-01",
     "date:inception_lower": "2025-10-01",
     "date:inception_upper": "2025-10-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-01",
+    "edtf:cessation": "2025-10-01T21:37:00Z",
+    "edtf:inception": "2025-10-01T20:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251001-A-AMX-3948",
@@ -39,6 +43,7 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "swim:tail_number": "N376DA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +58,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "112241339"
+    },
     "wof:country": "US",
     "wof:created": 1759421078,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -92,9 +100,10 @@
       102533795,
       1159284261,
       1947304671,
-      1159283539
+      1159283539,
+      1159289871
     ],
-    "wof:lastmodified": 1759421078,
+    "wof:lastmodified": 1759421855,
     "wof:name": "DL2267 (LAX-SFO)",
     "wof:parent_id": 1947304671,
     "wof:placetype": "custom",
