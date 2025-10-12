@@ -1,0 +1,72 @@
+{
+  "id": 1981643521,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-10-11",
+    "date:inception_upper": "2025-10-11",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-10-11",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AS",
+    "flysfo:date": "2025-10-11",
+    "flysfo:estimated_timestamp": 1760227800,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "AS9718",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-LAR",
+    "flysfo:scheduled_timestamp": 1760227800,
+    "flysfo:timestamp": 1760227800,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-105.674710,41.312480",
+    "geom:latitude": 39.465235,
+    "geom:longitude": -114.02282650000001,
+    "iata:airline": "AS",
+    "icao:airline": "ASA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283813,
+    "sfomuseum:arrival_id": 102530679,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20251011-D-ASA-9718",
+    "sfomuseum:flight_number": [
+      "ASA9718",
+      "AS9718"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1760285485,
+    "wof:geomhash": "2abeb858301375a5546beff9083bc55d",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981643521,
+        "flight_id": 1981643521
+      }
+    ],
+    "wof:id": 1981643521,
+    "wof:involves": [
+      102530679,
+      102527513,
+      1159283813,
+      -1
+    ],
+    "wof:lastmodified": 1760285485,
+    "wof:name": "AS9718 (SFO-LAR)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-10",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -105.67471,
+    41.31248
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-105.67471,41.31248]],"type":"MultiPoint"}
+}
