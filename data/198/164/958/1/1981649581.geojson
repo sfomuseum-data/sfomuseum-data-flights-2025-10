@@ -1,0 +1,72 @@
+{
+  "id": 1981649581,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-10-12",
+    "date:inception_upper": "2025-10-12",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-10-12",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "WN",
+    "flysfo:date": "2025-10-12",
+    "flysfo:estimated_timestamp": 1760329680,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "WN9004",
+    "flysfo:gate": "",
+    "flysfo:journey": "STL-SFO",
+    "flysfo:scheduled_timestamp": 1760327220,
+    "flysfo:timestamp": 1760329680,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-90.367632,38.743872",
+    "geom:latitude": 38.180931,
+    "geom:longitude": -106.3692875,
+    "iata:airline": "WN",
+    "icao:airline": "SWA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285591,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 1746879059,
+    "sfomuseum:flight_id": "20251012-A-SWA-9004",
+    "sfomuseum:flight_number": [
+      "SWA9004",
+      "WN9004"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1760371667,
+    "wof:geomhash": "5aed0915f9f8845326df52b0d348a4b7",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981649581,
+        "flight_id": 1981649581
+      }
+    ],
+    "wof:id": 1981649581,
+    "wof:involves": [
+      102527513,
+      1746879059,
+      1159285591,
+      -1
+    ],
+    "wof:lastmodified": 1760371667,
+    "wof:name": "WN9004 (STL-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-10",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -90.367632,
+    38.743872
+  ],
+  "geometry": {"coordinates":[[-90.367632,38.743872],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
