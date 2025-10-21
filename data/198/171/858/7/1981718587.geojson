@@ -2,10 +2,12 @@
   "id": 1981718587,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-10-20",
-    "date:inception_upper": "2025-10-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-20",
+    "date:cessation_lower": "2025-10-20",
+    "date:cessation_upper": "2025-10-20",
+    "date:inception_lower": "2025-10-21",
+    "date:inception_upper": "2025-10-21",
+    "edtf:cessation": "2025-10-20T16:02:01-07:00",
+    "edtf:inception": "2025-10-21T05:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.614792,
     "lbl:longitude": -122.382166,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251020-A-AFR-2527",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N3732J",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL14401300"
+    },
     "wof:country": "US",
     "wof:created": 1761062742,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -92,9 +104,10 @@
       102533795,
       1159284261,
       1947304677,
-      1159283627
+      1159283627,
+      1159289871
     ],
-    "wof:lastmodified": 1761062742,
+    "wof:lastmodified": 1761063555,
     "wof:name": "DL2986 (LAX-SFO)",
     "wof:parent_id": 1947304677,
     "wof:placetype": "custom",

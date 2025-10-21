@@ -2,10 +2,12 @@
   "id": 1981717267,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-20",
+    "date:cessation_upper": "2025-10-20",
     "date:inception_lower": "2025-10-20",
     "date:inception_upper": "2025-10-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-20",
+    "edtf:cessation": "2025-10-20T05:47:15-07:00",
+    "edtf:inception": "2025-10-20T14:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251020-A-ANZ-4709",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CGEOJ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "113807018",
+      "swim:gufi": "KP50078200"
+    },
     "wof:country": "US",
     "wof:created": 1761062586,
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981717267,
     "wof:involves": [
+      1159283697,
+      1528104575,
       102527513,
       102555091,
       1159283597,
-      1947304627,
-      1159283697
+      1947304627
     ],
-    "wof:lastmodified": 1761062586,
+    "wof:lastmodified": 1761063546,
     "wof:name": "AC741 (YYZ-SFO)",
     "wof:parent_id": 1947304627,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981718583,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-10-20",
-    "date:inception_upper": "2025-10-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-20",
+    "date:cessation_lower": "2025-10-20",
+    "date:cessation_upper": "2025-10-20",
+    "date:inception_lower": "2025-10-21",
+    "date:inception_upper": "2025-10-21",
+    "edtf:cessation": "2025-10-20T14:41:35-07:00",
+    "edtf:inception": "2025-10-21T03:10:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251020-A-AMX-4313",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N858DZ",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KU07261300"
+    },
     "wof:country": "US",
     "wof:created": 1761062741,
     "wof:geomhash": "24b8b627208edff0ed857058cce4fc5a",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981718583,
     "wof:involves": [
+      1377564285,
       102527513,
       102527363,
       1159284261,
       1763588251,
       1159283539
     ],
-    "wof:lastmodified": 1761062741,
+    "wof:lastmodified": 1761063555,
     "wof:name": "DL2762 (SLC-SFO)",
     "wof:parent_id": 1763588251,
     "wof:placetype": "custom",

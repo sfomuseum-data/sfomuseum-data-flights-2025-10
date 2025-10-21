@@ -2,10 +2,12 @@
   "id": 1981718599,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-20",
+    "date:cessation_upper": "2025-10-20",
     "date:inception_lower": "2025-10-20",
     "date:inception_upper": "2025-10-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-20",
+    "edtf:cessation": "2025-10-20T13:39:01-07:00",
+    "edtf:inception": "2025-10-20T21:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251020-A-AMX-3844",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N713TW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "113839776",
+      "swim:gufi": "KN72661200"
+    },
     "wof:country": "US",
     "wof:created": 1761062743,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981718599,
     "wof:involves": [
+      1159289939,
       102527513,
       102534365,
       1159284261,
       1947304675,
       1159283539
     ],
-    "wof:lastmodified": 1761062743,
+    "wof:lastmodified": 1761063556,
     "wof:name": "DL365 (JFK-SFO)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",

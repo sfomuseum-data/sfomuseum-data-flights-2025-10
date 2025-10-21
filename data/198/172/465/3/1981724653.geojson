@@ -2,10 +2,12 @@
   "id": 1981724653,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-20",
+    "date:cessation_upper": "2025-10-20",
     "date:inception_lower": "2025-10-20",
     "date:inception_upper": "2025-10-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-20",
+    "edtf:cessation": "2025-10-20T21:13:00Z",
+    "edtf:inception": "2025-10-20T05:14:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -116.6588805,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527853,
     "sfomuseum:base_flight_id": "20251020-D-ACA-4196",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N826UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "113830219",
+      "swim:gufi": "KO65842200"
+    },
     "wof:country": "US",
     "wof:created": 1761063429,
     "wof:geomhash": "6716e4c7ca0e3c1891c385118d042906",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981724653,
     "wof:involves": [
-      102527853,
-      102527513,
       1159285413,
       1947304617,
-      1159283597
+      1159283597,
+      1159289407,
+      102527853,
+      102527513
     ],
-    "wof:lastmodified": 1761063429,
+    "wof:lastmodified": 1761063569,
     "wof:name": "UA2064 (SFO-TUS)",
     "wof:parent_id": 1947304617,
     "wof:placetype": "custom",
