@@ -2,10 +2,12 @@
   "id": 1981728791,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-21",
+    "date:cessation_upper": "2025-10-21",
     "date:inception_lower": "2025-10-21",
     "date:inception_upper": "2025-10-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-21",
+    "edtf:cessation": "2025-10-21T02:20:06-07:00",
+    "edtf:inception": "2025-10-21T14:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -116.6588805,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251021-A-ACA-4155",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N493UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "113882483",
+      "swim:gufi": "KA48345300"
+    },
     "wof:country": "US",
     "wof:created": 1761149279,
     "wof:geomhash": "82918c5e99f5bb53bff81082f1f1666f",
@@ -92,9 +105,10 @@
       102527853,
       1159285413,
       1947304613,
-      1159283597
+      1159283597,
+      1159292085
     ],
-    "wof:lastmodified": 1761149279,
+    "wof:lastmodified": 1761149894,
     "wof:name": "UA1449 (TUS-SFO)",
     "wof:parent_id": 1947304613,
     "wof:placetype": "custom",

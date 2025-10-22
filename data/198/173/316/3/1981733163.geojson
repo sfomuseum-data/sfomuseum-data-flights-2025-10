@@ -2,10 +2,12 @@
   "id": 1981733163,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-10-21",
-    "date:inception_upper": "2025-10-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-21",
+    "date:cessation_lower": "2025-10-22",
+    "date:cessation_upper": "2025-10-22",
+    "date:inception_lower": "2025-10-22",
+    "date:inception_upper": "2025-10-22",
+    "edtf:cessation": "2025-10-22T03:42:00Z",
+    "edtf:inception": "2025-10-22T02:28:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:base_flight_id": "20251021-D-ACA-5188",
@@ -53,6 +57,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "113858917"
+    },
     "wof:country": "US",
     "wof:created": 1761149773,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -88,13 +95,14 @@
     ],
     "wof:id": 1981733163,
     "wof:involves": [
+      1159283597,
+      1528104577,
       102528997,
       102527513,
       1159285413,
-      1947304487,
-      1159283597
+      1947304487
     ],
-    "wof:lastmodified": 1761149773,
+    "wof:lastmodified": 1761149894,
     "wof:name": "UA2633 (SFO-SAN)",
     "wof:parent_id": 1947304487,
     "wof:placetype": "custom",

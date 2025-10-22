@@ -2,10 +2,12 @@
   "id": 1981726143,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-21",
+    "date:cessation_upper": "2025-10-21",
     "date:inception_lower": "2025-10-21",
     "date:inception_upper": "2025-10-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-21",
+    "edtf:cessation": "2025-10-21T04:16:02-07:00",
+    "edtf:inception": "2025-10-21T12:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.057846,
     "iata:airline": "AC",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.616987,
     "lbl:longitude": -122.382479,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251021-A-ANZ-4703",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CFSKZ",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "113872814",
+      "swim:gufi": "KP48303300"
+    },
     "wof:country": "US",
     "wof:created": 1761148967,
     "wof:geomhash": "d6fced31e2f30d79d54c9b38b6916cc7",
@@ -92,9 +106,10 @@
       102554351,
       1159283597,
       1947304625,
-      1159283697
+      1159283697,
+      1528104575
     ],
-    "wof:lastmodified": 1761148967,
+    "wof:lastmodified": 1761149872,
     "wof:name": "AC761 (YUL-SFO)",
     "wof:parent_id": 1947304625,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981726877,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-21",
+    "date:cessation_upper": "2025-10-21",
     "date:inception_lower": "2025-10-21",
     "date:inception_upper": "2025-10-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-21",
+    "edtf:cessation": "2025-10-21T12:42:30-07:00",
+    "edtf:inception": "2025-10-21T20:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251021-A-HAL-4915",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N469AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "113912963",
+      "swim:gufi": "KN67932300"
+    },
     "wof:country": "US",
     "wof:created": 1761149055,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981726877,
     "wof:involves": [
+      1377564285,
       102527513,
       102534365,
       1159283813,
       1947304273,
       1159284489
     ],
-    "wof:lastmodified": 1761149055,
+    "wof:lastmodified": 1761149877,
     "wof:name": "AS77 (JFK-SFO)",
     "wof:parent_id": 1947304273,
     "wof:placetype": "custom",

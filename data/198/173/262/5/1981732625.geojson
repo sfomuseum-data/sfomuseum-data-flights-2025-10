@@ -2,10 +2,12 @@
   "id": 1981732625,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-21",
+    "date:cessation_upper": "2025-10-21",
     "date:inception_lower": "2025-10-21",
     "date:inception_upper": "2025-10-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-21",
+    "edtf:cessation": "2025-10-21T17:20:00Z",
+    "edtf:inception": "2025-10-21T13:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-10-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.702760999999995,
     "geom:longitude": -105.058423,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102531205,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N927WN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "113878545",
+      "swim:gufi": "KO39664300"
+    },
     "wof:country": "US",
     "wof:created": 1761149714,
     "wof:geomhash": "b0d868dab19a217943f06d97e1bf7ce6",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981732625,
     "wof:involves": [
+      1159289869,
       102531205,
       102527513,
       1159285591,
       1947304621
     ],
-    "wof:lastmodified": 1761149714,
+    "wof:lastmodified": 1761149889,
     "wof:name": "WN3834 (SFO-MDW)",
     "wof:parent_id": 1947304621,
     "wof:placetype": "custom",

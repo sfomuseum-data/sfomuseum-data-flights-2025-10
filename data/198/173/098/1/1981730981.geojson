@@ -2,10 +2,12 @@
   "id": 1981730981,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-21",
+    "date:cessation_upper": "2025-10-21",
     "date:inception_lower": "2025-10-21",
     "date:inception_upper": "2025-10-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-21",
+    "edtf:cessation": "2025-10-21T23:40:00Z",
+    "edtf:inception": "2025-10-21T06:39:36-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2025-10-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 30.389476000000002,
     "geom:longitude": -116.044202,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102536441,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N723AL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "113915678",
+      "swim:gufi": "KO70034300"
+    },
     "wof:country": "US",
     "wof:created": 1761149528,
     "wof:geomhash": "7babf6b9ba279da48525185e0724d212",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1981730981,
     "wof:involves": [
+      1528104577,
       102536441,
       102527513,
-      1159283813,
-      -1
+      1159283813
     ],
-    "wof:lastmodified": 1761149528,
+    "wof:lastmodified": 1761149874,
     "wof:name": "AS1428 (SFO-SJD)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
