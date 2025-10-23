@@ -2,10 +2,12 @@
   "id": 1981739967,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-22",
+    "date:cessation_upper": "2025-10-22",
     "date:inception_lower": "2025-10-22",
     "date:inception_upper": "2025-10-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-22",
+    "edtf:cessation": "2025-10-22T13:50:00Z",
+    "edtf:inception": "2025-10-22T12:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "CAL",
     "lbl:latitude": 37.614792,
     "lbl:longitude": -122.382166,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20251022-D-CAL-9099",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N391DA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "113956934",
+      "swim:gufi": "KO43261400"
+    },
     "wof:country": "US",
     "wof:created": 1761235995,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981739967,
     "wof:involves": [
-      102533795,
       102527513,
       1159284261,
       1947304677,
-      1159284153
+      1159284153,
+      1159289871,
+      102533795
     ],
-    "wof:lastmodified": 1761235995,
+    "wof:lastmodified": 1761236316,
     "wof:name": "DL1598 (SFO-LAX)",
     "wof:parent_id": 1947304677,
     "wof:placetype": "custom",

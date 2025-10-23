@@ -2,10 +2,12 @@
   "id": 1981736971,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-23",
+    "date:cessation_upper": "2025-10-23",
     "date:inception_lower": "2025-10-22",
     "date:inception_upper": "2025-10-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-22",
+    "edtf:cessation": "2025-10-23T04:24:00Z",
+    "edtf:inception": "2025-10-22T23:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-10-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8721885,
     "geom:longitude": -104.5237975,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525035,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8915Q",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114012837",
+      "swim:gufi": "KM78216400"
+    },
     "wof:country": "US",
     "wof:created": 1761235653,
     "wof:geomhash": "462e561a68f133085fb895c49eddc748",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1981736971,
     "wof:involves": [
-      102527513,
-      102525035,
       1159285591,
-      1947304599
+      1947304599,
+      1528104575,
+      102527513,
+      102525035
     ],
-    "wof:lastmodified": 1761235653,
+    "wof:lastmodified": 1761236317,
     "wof:name": "WN1378 (BNA-SFO)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

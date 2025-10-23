@@ -2,10 +2,12 @@
   "id": 1981737681,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-22",
+    "date:cessation_upper": "2025-10-22",
     "date:inception_lower": "2025-10-22",
     "date:inception_upper": "2025-10-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-22",
+    "edtf:cessation": "2025-10-22T01:51:30-07:00",
+    "edtf:inception": "2025-10-22T10:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -100.9996425,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251022-A-ACA-4105",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N27267",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "113948924",
+      "swim:gufi": "KP35694400"
+    },
     "wof:country": "US",
     "wof:created": 1761235735,
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981737681,
     "wof:involves": [
+      1159283597,
+      1528104575,
       102527513,
       102555091,
       1159285413,
-      1763588337,
-      1159283597
+      1763588337
     ],
-    "wof:lastmodified": 1761235735,
+    "wof:lastmodified": 1761236320,
     "wof:name": "UA565 (YYZ-SFO)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",

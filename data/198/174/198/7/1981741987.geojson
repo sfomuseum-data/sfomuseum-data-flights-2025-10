@@ -2,10 +2,12 @@
   "id": 1981741987,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-23",
+    "date:cessation_upper": "2025-10-23",
     "date:inception_lower": "2025-10-22",
     "date:inception_upper": "2025-10-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-22",
+    "edtf:cessation": "2025-10-23T04:43:00Z",
+    "edtf:inception": "2025-10-22T11:00:00-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "UAE",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530009,
     "sfomuseum:base_flight_id": "20251022-D-UAE-6491",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N34455",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO86220400"
+    },
     "wof:country": "US",
     "wof:created": 1761236226,
     "wof:geomhash": "8b4edcad4124de1c487808d2d2d1ecd3",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981741987,
     "wof:involves": [
+      1377564285,
       102530009,
       102527513,
       1159285413,
       1947304519,
       1159284333
     ],
-    "wof:lastmodified": 1761236226,
+    "wof:lastmodified": 1761236310,
     "wof:name": "UA744 (SFO-MSY)",
     "wof:parent_id": 1947304519,
     "wof:placetype": "custom",
