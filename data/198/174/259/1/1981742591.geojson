@@ -2,10 +2,12 @@
   "id": 1981742591,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-10-23",
-    "date:inception_upper": "2025-10-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-23",
+    "date:cessation_lower": "2025-10-23",
+    "date:cessation_upper": "2025-10-23",
+    "date:inception_lower": "2025-10-24",
+    "date:inception_upper": "2025-10-24",
+    "edtf:cessation": "2025-10-23T13:14:00-07:00",
+    "edtf:inception": "2025-10-24T01:35:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "icao:base_airline": "CSN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251023-A-CSN-1629",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N825NN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KA86233500"
+    },
     "wof:country": "US",
     "wof:created": 1761321702,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981742591,
     "wof:involves": [
+      1159284165,
+      1159289871,
       102527513,
       102526751,
       1159283849,
-      1947304317,
-      1159284165
+      1947304317
     ],
-    "wof:lastmodified": 1761321702,
+    "wof:lastmodified": 1761322758,
     "wof:name": "AA2421 (PHX-SFO)",
     "wof:parent_id": 1947304317,
     "wof:placetype": "custom",

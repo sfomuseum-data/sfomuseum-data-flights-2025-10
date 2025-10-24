@@ -2,10 +2,12 @@
   "id": 1981745705,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-10-23",
-    "date:inception_upper": "2025-10-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-23",
+    "date:cessation_lower": "2025-10-23",
+    "date:cessation_upper": "2025-10-23",
+    "date:inception_lower": "2025-10-24",
+    "date:inception_upper": "2025-10-24",
+    "edtf:cessation": "2025-10-23T15:24:31-07:00",
+    "edtf:inception": "2025-10-24T04:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-10-23",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N285WN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL06784600"
+    },
     "wof:country": "US",
     "wof:created": 1761322082,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1981745705,
     "wof:involves": [
-      102527513,
-      102533269,
       1159285591,
-      1947304599
+      1947304599,
+      1159289869,
+      102527513,
+      102533269
     ],
-    "wof:lastmodified": 1761322082,
+    "wof:lastmodified": 1761322767,
     "wof:name": "WN2767 (SEA-SFO)",
     "wof:parent_id": 1947304599,
     "wof:placetype": "custom",

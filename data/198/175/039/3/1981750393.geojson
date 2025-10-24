@@ -2,10 +2,12 @@
   "id": 1981750393,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-23",
+    "date:cessation_upper": "2025-10-23",
     "date:inception_lower": "2025-10-23",
     "date:inception_upper": "2025-10-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-23",
+    "edtf:cessation": "2025-10-23T19:24:51Z",
+    "edtf:inception": "2025-10-23T16:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.8106995,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102536481,
     "sfomuseum:base_flight_id": "20251023-D-ACA-5310",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N434UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114056856",
+      "swim:gufi": "KO53556501"
+    },
     "wof:country": "US",
     "wof:created": 1761322622,
     "wof:geomhash": "ae49e61cad725fa4577f8355bb7297ad",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981750393,
     "wof:involves": [
+      1159292085,
       102536481,
       102527513,
       1159285413,
       1947304147,
       1159283597
     ],
-    "wof:lastmodified": 1761322622,
+    "wof:lastmodified": 1761322760,
     "wof:name": "UA1212 (SFO-PVR)",
     "wof:parent_id": 1947304147,
     "wof:placetype": "custom",

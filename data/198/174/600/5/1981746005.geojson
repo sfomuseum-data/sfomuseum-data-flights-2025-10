@@ -2,10 +2,12 @@
   "id": 1981746005,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-23",
+    "date:cessation_upper": "2025-10-23",
     "date:inception_lower": "2025-10-23",
     "date:inception_upper": "2025-10-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-23",
+    "edtf:cessation": "2025-10-23T17:34:59Z",
+    "edtf:inception": "2025-10-23T15:40:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -116.6588805,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251023-A-ACA-4155",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N486UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114048615",
+      "swim:gufi": "KA48483500"
+    },
     "wof:country": "US",
     "wof:created": 1761322117,
     "wof:geomhash": "82918c5e99f5bb53bff81082f1f1666f",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981746005,
     "wof:involves": [
+      1159292085,
       102527513,
       102527853,
       1159285413,
       1947304603,
       1159283597
     ],
-    "wof:lastmodified": 1761322117,
+    "wof:lastmodified": 1761322768,
     "wof:name": "UA1449 (TUS-SFO)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",
