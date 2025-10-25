@@ -2,10 +2,12 @@
   "id": 1981755537,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-24",
+    "date:cessation_upper": "2025-10-24",
     "date:inception_lower": "2025-10-24",
     "date:inception_upper": "2025-10-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-24",
+    "edtf:cessation": "2025-10-24T12:34:03-07:00",
+    "edtf:inception": "2025-10-24T15:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -61.410693,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618742,
     "lbl:longitude": -122.392935,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251024-A-ACA-3716",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N77019",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114145230"
+    },
     "wof:country": "US",
     "wof:created": 1761408569,
     "wof:geomhash": "c7bf5337358552a3a60caed0c1e9ea63",
@@ -92,9 +105,10 @@
       102556703,
       1159285413,
       1947304157,
-      1159283597
+      1159283597,
+      1159289985
     ],
-    "wof:lastmodified": 1761408569,
+    "wof:lastmodified": 1761409145,
     "wof:name": "UA939 (LHR-SFO)",
     "wof:parent_id": 1947304157,
     "wof:placetype": "custom",

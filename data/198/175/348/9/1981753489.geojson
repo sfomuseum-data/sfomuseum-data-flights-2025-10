@@ -2,10 +2,12 @@
   "id": 1981753489,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-24",
+    "date:cessation_upper": "2025-10-24",
     "date:inception_lower": "2025-10-24",
     "date:inception_upper": "2025-10-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-24",
+    "edtf:cessation": "2025-10-24T00:29:52-07:00",
+    "edtf:inception": "2025-10-24T14:04:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-10-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.1517615,
     "geom:longitude": -121.98042749999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530559,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N654DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "114135491",
+      "swim:gufi": "KO46861600"
+    },
     "wof:country": "US",
     "wof:created": 1761408337,
     "wof:geomhash": "f5805f1be1c56ce2a2965880e252c65f",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1981753489,
     "wof:involves": [
+      1159289939,
       102527513,
       102530559,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1761408337,
+    "wof:lastmodified": 1761409137,
     "wof:name": "DL8840 (SMF-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

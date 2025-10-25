@@ -2,10 +2,12 @@
   "id": 1981754997,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-24",
+    "date:cessation_upper": "2025-10-24",
     "date:inception_lower": "2025-10-24",
     "date:inception_upper": "2025-10-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-24",
+    "edtf:cessation": "2025-10-24T15:26:10Z",
+    "edtf:inception": "2025-10-24T11:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-10-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.8002995,
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530009,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N69830",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114126005"
+    },
     "wof:country": "US",
     "wof:created": 1761408507,
     "wof:geomhash": "a7e835886f555fd347028edc152f9d8c",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1981754997,
     "wof:involves": [
+      1947304523,
+      1377564285,
       102527513,
       102530009,
-      1159285413,
-      1947304523
+      1159285413
     ],
-    "wof:lastmodified": 1761408507,
+    "wof:lastmodified": 1761409140,
     "wof:name": "UA1692 (MSY-SFO)",
     "wof:parent_id": 1947304523,
     "wof:placetype": "custom",

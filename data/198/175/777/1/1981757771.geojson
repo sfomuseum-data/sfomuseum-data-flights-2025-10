@@ -2,10 +2,12 @@
   "id": 1981757771,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-25",
+    "date:cessation_upper": "2025-10-25",
     "date:inception_lower": "2025-10-24",
     "date:inception_upper": "2025-10-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-24",
+    "edtf:cessation": "2025-10-25T01:51:00Z",
+    "edtf:inception": "2025-10-24T10:28:38-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:base_flight_id": "20251024-D-KLM-6296",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N322NB",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114103206",
+      "swim:gufi": "KO83101600"
+    },
     "wof:country": "US",
     "wof:created": 1761408819,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981757771,
     "wof:involves": [
+      1159289407,
       102527363,
       102527513,
       1159284261,
       1947304675,
       1159284613
     ],
-    "wof:lastmodified": 1761408819,
+    "wof:lastmodified": 1761409161,
     "wof:name": "DL1088 (SFO-SLC)",
     "wof:parent_id": 1947304675,
     "wof:placetype": "custom",

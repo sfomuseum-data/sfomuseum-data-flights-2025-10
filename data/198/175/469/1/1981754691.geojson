@@ -2,10 +2,12 @@
   "id": 1981754691,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-24",
+    "date:cessation_upper": "2025-10-24",
     "date:inception_lower": "2025-10-24",
     "date:inception_upper": "2025-10-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-24",
+    "edtf:cessation": "2025-10-24T22:26:00Z",
+    "edtf:inception": "2025-10-24T17:06:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2025-10-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.3996545,
     "geom:longitude": -99.5210065,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532047,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N8502Z",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +57,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114147147",
+      "swim:gufi": "KW52054600"
+    },
     "wof:country": "US",
     "wof:created": 1761408473,
     "wof:geomhash": "10c01f207ef95eecc919066d165ec5eb",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1981754691,
     "wof:involves": [
+      1159289871,
       102527513,
       102532047,
       1159285591,
       1947304621
     ],
-    "wof:lastmodified": 1761408473,
+    "wof:lastmodified": 1761409159,
     "wof:name": "WN787 (BWI-SFO)",
     "wof:parent_id": 1947304621,
     "wof:placetype": "custom",

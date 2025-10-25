@@ -2,10 +2,12 @@
   "id": 1981751545,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-24",
+    "date:cessation_upper": "2025-10-24",
     "date:inception_lower": "2025-10-24",
     "date:inception_upper": "2025-10-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-24",
+    "edtf:cessation": "2025-10-24T13:53:09-07:00",
+    "edtf:inception": "2025-10-24T22:49:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:date": "2025-10-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.419367,
     "geom:longitude": -101.65686,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528659,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N977UY",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114187351",
+      "swim:gufi": "KT75211600"
+    },
     "wof:country": "US",
     "wof:created": 1761408097,
     "wof:geomhash": "b96563c9986e04a3607ac552f48e111b",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981751545,
     "wof:involves": [
+      1159289411,
       102527513,
       102528659,
       1159283849,
       1947304291
     ],
-    "wof:lastmodified": 1761408097,
+    "wof:lastmodified": 1761409132,
     "wof:name": "AA2410 (CLT-SFO)",
     "wof:parent_id": 1947304291,
     "wof:placetype": "custom",
