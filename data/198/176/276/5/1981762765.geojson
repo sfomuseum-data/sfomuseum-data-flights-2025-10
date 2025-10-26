@@ -1,0 +1,72 @@
+{
+  "id": 1981762765,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-10-25",
+    "date:inception_upper": "2025-10-25",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-10-25",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "IB",
+    "flysfo:date": "2025-10-25",
+    "flysfo:estimated_timestamp": 1761443820,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "IB26",
+    "flysfo:gate": "",
+    "flysfo:journey": "BCN-SFO",
+    "flysfo:scheduled_timestamp": 1761443220,
+    "flysfo:timestamp": 1761443820,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,2.081322,41.296019",
+    "geom:latitude": 39.4570045,
+    "geom:longitude": -60.1448105,
+    "iata:airline": "IB",
+    "icao:airline": "IBE",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284511,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102545733,
+    "sfomuseum:flight_id": "20251025-A-IBE-26",
+    "sfomuseum:flight_number": [
+      "IBE26",
+      "IB26"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1761494794,
+    "wof:geomhash": "7a64189ee84e1d057c670ad6a60700c7",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981762765,
+        "flight_id": 1981762765
+      }
+    ],
+    "wof:id": 1981762765,
+    "wof:involves": [
+      102527513,
+      102545733,
+      1159284511,
+      -1
+    ],
+    "wof:lastmodified": 1761494794,
+    "wof:name": "IB26 (BCN-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-10",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    2.081322,
+    41.296019
+  ],
+  "geometry": {"coordinates":[[2.081322,41.296019],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
