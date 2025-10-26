@@ -2,10 +2,12 @@
   "id": 1981767741,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-26",
+    "date:cessation_upper": "2025-10-26",
     "date:inception_lower": "2025-10-25",
     "date:inception_upper": "2025-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-25",
+    "edtf:cessation": "2025-10-26T09:40:00Z",
+    "edtf:inception": "2025-10-25T14:56:56-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.4509355,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "VOZ",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533243,
     "sfomuseum:base_flight_id": "20251025-D-VOZ-8259",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37525",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO13231100"
+    },
     "wof:country": "US",
     "wof:created": 1761495355,
     "wof:geomhash": "eed3ad030b4c80153105b635669626b5",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981767741,
     "wof:involves": [
+      1528104577,
       102533243,
       102527513,
       1159285413,
       1947304609,
       1159285485
     ],
-    "wof:lastmodified": 1761495355,
+    "wof:lastmodified": 1761495487,
     "wof:name": "UA2456 (SFO-TPA)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",

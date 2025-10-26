@@ -2,10 +2,12 @@
   "id": 1981766213,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-25",
+    "date:cessation_upper": "2025-10-25",
     "date:inception_lower": "2025-10-25",
     "date:inception_upper": "2025-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-25",
+    "edtf:cessation": "2025-10-25T19:25:00Z",
+    "edtf:inception": "2025-10-25T00:05:20-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "DAL",
     "icao:base_airline": "ELY",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102530741,
     "sfomuseum:base_flight_id": "20251025-D-ELY-4228",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N578DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114228652",
+      "swim:gufi": "KO47461701"
+    },
     "wof:country": "US",
     "wof:created": 1761495185,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981766213,
     "wof:involves": [
+      1159284327,
+      1377564297,
       102530741,
       102527513,
       1159284261,
-      1947304681,
-      1159284327
+      1947304681
     ],
-    "wof:lastmodified": 1761495185,
+    "wof:lastmodified": 1761495469,
     "wof:name": "DL400 (SFO-BOS)",
     "wof:parent_id": 1947304681,
     "wof:placetype": "custom",

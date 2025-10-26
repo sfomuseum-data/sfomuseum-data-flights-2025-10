@@ -2,10 +2,12 @@
   "id": 1981762699,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-26",
+    "date:cessation_upper": "2025-10-26",
     "date:inception_lower": "2025-10-25",
     "date:inception_upper": "2025-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-25",
+    "edtf:cessation": "2025-10-25T23:10:02-07:00",
+    "edtf:inception": "2025-10-25T09:54:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "HA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.1446795,
     "iata:airline": "HA",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "HAL",
     "icao:base_airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284489,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251025-A-ASA-8124",
@@ -39,7 +43,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N220HA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "114213623"
+    },
     "wof:country": "US",
     "wof:created": 1761494786,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -51,13 +64,13 @@
     ],
     "wof:id": 1981762699,
     "wof:involves": [
+      1159283813,
+      1377564297,
       102527513,
       102533997,
-      1159284489,
-      -1,
-      1159283813
+      1159284489
     ],
-    "wof:lastmodified": 1761494786,
+    "wof:lastmodified": 1761495459,
     "wof:name": "HA624 (HNL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

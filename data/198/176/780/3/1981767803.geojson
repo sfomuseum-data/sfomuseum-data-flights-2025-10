@@ -2,10 +2,12 @@
   "id": 1981767803,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-25",
+    "date:cessation_upper": "2025-10-25",
     "date:inception_lower": "2025-10-25",
     "date:inception_upper": "2025-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-25",
+    "edtf:cessation": "2025-10-25T18:26:00Z",
+    "edtf:inception": "2025-10-25T14:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-10-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531979,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37551",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114290999",
+      "swim:gufi": "KO35900700"
+    },
     "wof:country": "US",
     "wof:created": 1761495363,
     "wof:geomhash": "24c5d8bcd340273688237ae435bbe348",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981767803,
     "wof:involves": [
-      102531979,
-      102527513,
       1159285413,
-      1947304491
+      1947304491,
+      1528104577,
+      102531979,
+      102527513
     ],
-    "wof:lastmodified": 1761495363,
+    "wof:lastmodified": 1761495473,
     "wof:name": "UA3927 (SFO-ANC)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981762333,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-25",
+    "date:cessation_upper": "2025-10-25",
     "date:inception_lower": "2025-10-25",
     "date:inception_upper": "2025-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-25",
+    "edtf:cessation": "2025-10-25T00:16:05-07:00",
+    "edtf:inception": "2025-10-25T14:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2025-10-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.669650000000004,
     "geom:longitude": -122.2917035,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531041,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N697DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "114216497"
+    },
     "wof:country": "US",
     "wof:created": 1761494744,
     "wof:geomhash": "ef262e0da13c3e8dd354e2b42ae8d539",
@@ -49,9 +62,9 @@
       102527513,
       102531041,
       1159284261,
-      -1
+      1159289939
     ],
-    "wof:lastmodified": 1761494744,
+    "wof:lastmodified": 1761495457,
     "wof:name": "DL8832 (OAK-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

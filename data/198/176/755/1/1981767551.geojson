@@ -2,10 +2,12 @@
   "id": 1981767551,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-25",
+    "date:cessation_upper": "2025-10-25",
     "date:inception_lower": "2025-10-25",
     "date:inception_upper": "2025-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-25",
+    "edtf:cessation": "2025-10-25T20:36:00Z",
+    "edtf:inception": "2025-10-25T02:20:56-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-10-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.627254,
     "geom:longitude": -103.4008145,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17337",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114239116",
+      "swim:gufi": "KO54021700"
+    },
     "wof:country": "US",
     "wof:created": 1761495334,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -86,9 +100,10 @@
       102526927,
       102527513,
       1159285413,
-      1947304529
+      1947304529,
+      1528104575
     ],
-    "wof:lastmodified": 1761495334,
+    "wof:lastmodified": 1761495487,
     "wof:name": "UA1547 (SFO-ATL)",
     "wof:parent_id": 1947304529,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981763607,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-25",
+    "date:cessation_upper": "2025-10-25",
     "date:inception_lower": "2025-10-25",
     "date:inception_upper": "2025-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-25",
+    "edtf:cessation": "2025-10-25T10:08:55-07:00",
+    "edtf:inception": "2025-10-25T22:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -116.6588805,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.616825,
     "lbl:longitude": -122.381021,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251025-A-ACA-4578",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N822UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114274281",
+      "swim:gufi": "KA77114700"
+    },
     "wof:country": "US",
     "wof:created": 1761494891,
     "wof:geomhash": "82918c5e99f5bb53bff81082f1f1666f",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981763607,
     "wof:involves": [
+      1947304607,
+      1159283597,
+      1159289407,
       102527513,
       102527853,
-      1159285413,
-      1947304607,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1761494891,
+    "wof:lastmodified": 1761495461,
     "wof:name": "UA1652 (TUS-SFO)",
     "wof:parent_id": 1947304607,
     "wof:placetype": "custom",
