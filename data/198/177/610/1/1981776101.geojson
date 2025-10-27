@@ -2,10 +2,12 @@
   "id": 1981776101,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-26",
+    "date:cessation_upper": "2025-10-26",
     "date:inception_lower": "2025-10-26",
     "date:inception_upper": "2025-10-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-26",
+    "edtf:cessation": "2025-10-26T18:15:00Z",
+    "edtf:inception": "2025-10-26T00:41:39-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-10-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.8002995,
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530009,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N76503",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114309090",
+      "swim:gufi": "KO48666100"
+    },
     "wof:country": "US",
     "wof:created": 1761581801,
     "wof:geomhash": "8b4edcad4124de1c487808d2d2d1ecd3",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1981776101,
     "wof:involves": [
+      1159289871,
       102530009,
       102527513,
       1159285413,
       1947304523
     ],
-    "wof:lastmodified": 1761581801,
+    "wof:lastmodified": 1761581977,
     "wof:name": "UA1639 (SFO-MSY)",
     "wof:parent_id": 1947304523,
     "wof:placetype": "custom",

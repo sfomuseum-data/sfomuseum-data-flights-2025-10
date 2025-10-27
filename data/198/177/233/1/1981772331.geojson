@@ -2,10 +2,12 @@
   "id": 1981772331,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-10-26",
-    "date:inception_upper": "2025-10-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-26",
+    "date:cessation_lower": "2025-10-27",
+    "date:cessation_upper": "2025-10-27",
+    "date:inception_lower": "2025-10-27",
+    "date:inception_upper": "2025-10-27",
+    "edtf:cessation": "2025-10-26T18:06:12-07:00",
+    "edtf:inception": "2025-10-27T02:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-10-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N14102",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KN01414200"
+    },
     "wof:country": "US",
     "wof:created": 1761581370,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1981772331,
     "wof:involves": [
-      102527513,
-      102530049,
       1159285413,
-      -1
+      1159289939,
+      102527513,
+      102530049
     ],
-    "wof:lastmodified": 1761581370,
+    "wof:lastmodified": 1761581972,
     "wof:name": "UA8158 (EWR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

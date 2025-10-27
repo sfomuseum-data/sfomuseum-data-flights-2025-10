@@ -2,10 +2,12 @@
   "id": 1981776097,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-27",
+    "date:cessation_upper": "2025-10-27",
     "date:inception_lower": "2025-10-26",
     "date:inception_upper": "2025-10-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-26",
+    "edtf:cessation": "2025-10-27T09:56:00Z",
+    "edtf:inception": "2025-10-26T16:39:28-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -104.324809,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B737",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534155,
     "sfomuseum:base_flight_id": "20251026-D-ANZ-2731",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N38257",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -88,13 +97,14 @@
     ],
     "wof:id": 1981776097,
     "wof:involves": [
+      1159283697,
+      1159289869,
       102534155,
       102527513,
       1159285413,
-      1947304603,
-      1159283697
+      1947304603
     ],
-    "wof:lastmodified": 1761581801,
+    "wof:lastmodified": 1761581964,
     "wof:name": "UA1603 (SFO-IND)",
     "wof:parent_id": 1947304603,
     "wof:placetype": "custom",

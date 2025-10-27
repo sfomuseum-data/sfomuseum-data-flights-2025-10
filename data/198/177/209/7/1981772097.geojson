@@ -2,10 +2,12 @@
   "id": 1981772097,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-26",
+    "date:cessation_upper": "2025-10-26",
     "date:inception_lower": "2025-10-26",
     "date:inception_upper": "2025-10-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-26",
+    "edtf:cessation": "2025-10-26T09:49:12Z",
+    "edtf:inception": "2025-10-26T04:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-10-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.846425,
     "geom:longitude": -101.2547305,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530841,
@@ -48,6 +52,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114290502",
+      "swim:gufi": "KR111191m9"
+    },
     "wof:country": "US",
     "wof:created": 1761581342,
     "wof:geomhash": "d17d7e3187ba5afa3de1a7310fca2526",
@@ -83,12 +91,13 @@
     ],
     "wof:id": 1981772097,
     "wof:involves": [
+      1159289945,
       102527513,
       102530841,
       1159285413,
       1947304457
     ],
-    "wof:lastmodified": 1761581342,
+    "wof:lastmodified": 1761581971,
     "wof:name": "UA3797 (FLL-SFO)",
     "wof:parent_id": 1947304457,
     "wof:placetype": "custom",

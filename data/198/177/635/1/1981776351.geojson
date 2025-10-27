@@ -2,10 +2,12 @@
   "id": 1981776351,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-10-26",
-    "date:inception_upper": "2025-10-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-26",
+    "date:cessation_lower": "2025-10-27",
+    "date:cessation_upper": "2025-10-27",
+    "date:inception_lower": "2025-10-27",
+    "date:inception_upper": "2025-10-27",
+    "edtf:cessation": "2025-10-27T02:50:00Z",
+    "edtf:inception": "2025-10-27T02:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-10-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.5616045,
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102525535,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17413",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO04311200"
+    },
     "wof:country": "US",
     "wof:created": 1761581829,
     "wof:geomhash": "414447526a1ddeb77713c60c4ab5a7e4",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1981776351,
     "wof:involves": [
+      1528104577,
       102525535,
       102527513,
       1159285413,
       1947304531
     ],
-    "wof:lastmodified": 1761581829,
+    "wof:lastmodified": 1761581978,
     "wof:name": "UA3908 (SFO-RNO)",
     "wof:parent_id": 1947304531,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981771113,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-26",
+    "date:cessation_upper": "2025-10-26",
     "date:inception_lower": "2025-10-26",
     "date:inception_upper": "2025-10-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-26",
+    "edtf:cessation": "2025-10-26T19:59:00Z",
+    "edtf:inception": "2025-10-26T09:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "KL",
     "flysfo:date": "2025-10-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.9663905,
     "geom:longitude": -58.794018,
     "iata:airline": "KL",
+    "icao:aircraft": "B78X",
     "icao:airline": "KLM",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564289,
     "sfomuseum:airline_id": 1159284613,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102542801,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "PHBKH",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "114293526"
+    },
     "wof:country": "US",
     "wof:created": 1761581229,
     "wof:geomhash": "bfe9b4dfbd612ca8de6bd9460273f90d",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1981771113,
     "wof:involves": [
-      102527513,
       102542801,
       1159284613,
-      -1
+      1377564289,
+      102527513
     ],
-    "wof:lastmodified": 1761581229,
+    "wof:lastmodified": 1761581945,
     "wof:name": "KL373 (AMS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

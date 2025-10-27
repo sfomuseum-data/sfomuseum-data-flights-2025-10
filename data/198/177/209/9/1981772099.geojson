@@ -2,10 +2,12 @@
   "id": 1981772099,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-26",
+    "date:cessation_upper": "2025-10-26",
     "date:inception_lower": "2025-10-26",
     "date:inception_upper": "2025-10-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-26",
+    "edtf:cessation": "2025-10-26T23:24:44Z",
+    "edtf:inception": "2025-10-26T19:33:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-10-26",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "UA",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531979,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +55,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114331282",
+      "swim:gufi": "KS58258100"
+    },
     "wof:country": "US",
     "wof:created": 1761581343,
     "wof:geomhash": "40576486fbb454d3a66da49d62a0ae33",
@@ -83,12 +94,13 @@
     ],
     "wof:id": 1981772099,
     "wof:involves": [
+      1947304527,
+      1528104575,
       102527513,
       102531979,
-      1159285413,
-      1947304527
+      1159285413
     ],
-    "wof:lastmodified": 1761581343,
+    "wof:lastmodified": 1761581971,
     "wof:name": "UA3854 (ANC-SFO)",
     "wof:parent_id": 1947304527,
     "wof:placetype": "custom",

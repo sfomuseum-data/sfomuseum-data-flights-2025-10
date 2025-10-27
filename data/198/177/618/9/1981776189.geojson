@@ -2,10 +2,12 @@
   "id": 1981776189,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-26",
+    "date:cessation_upper": "2025-10-26",
     "date:inception_lower": "2025-10-26",
     "date:inception_upper": "2025-10-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-26",
+    "edtf:cessation": "2025-10-26T10:23:07Z",
+    "edtf:inception": "2025-10-26T06:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114292051"
+    },
     "wof:country": "US",
     "wof:created": 1761581811,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -94,7 +99,7 @@
       1947304529,
       1159283597
     ],
-    "wof:lastmodified": 1761581811,
+    "wof:lastmodified": 1761581964,
     "wof:name": "UA2097 (SFO-ORD)",
     "wof:parent_id": 1947304529,
     "wof:placetype": "custom",
