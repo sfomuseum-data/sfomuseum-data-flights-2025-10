@@ -2,10 +2,12 @@
   "id": 1981778615,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-10-27",
-    "date:inception_upper": "2025-10-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-27",
+    "date:cessation_lower": "2025-10-27",
+    "date:cessation_upper": "2025-10-27",
+    "date:inception_lower": "2025-10-28",
+    "date:inception_upper": "2025-10-28",
+    "edtf:cessation": "2025-10-27T13:27:06-07:00",
+    "edtf:inception": "2025-10-28T00:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251027-A-AAL-9437",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N214AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114353462",
+      "swim:gufi": "KL82210200"
+    },
     "wof:country": "US",
     "wof:created": 1761667498,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -92,9 +106,10 @@
       102536481,
       1159283813,
       1947304279,
-      1159283849
+      1159283849,
+      1377564285
     ],
-    "wof:lastmodified": 1761667498,
+    "wof:lastmodified": 1761668368,
     "wof:name": "AS690 (PVR-SFO)",
     "wof:parent_id": 1947304279,
     "wof:placetype": "custom",

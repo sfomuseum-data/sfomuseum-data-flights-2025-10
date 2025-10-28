@@ -2,10 +2,12 @@
   "id": 1981780885,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-27",
+    "date:cessation_upper": "2025-10-27",
     "date:inception_lower": "2025-10-27",
     "date:inception_upper": "2025-10-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-27",
+    "edtf:cessation": "2025-10-27T20:01:00Z",
+    "edtf:inception": "2025-10-27T14:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-10-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.283618000000004,
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528817,
@@ -34,7 +38,13 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "114442908"
+    },
     "wof:country": "US",
     "wof:created": 1761667776,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
@@ -46,12 +56,12 @@
     ],
     "wof:id": 1981780885,
     "wof:involves": [
+      1159293215,
       102527513,
       102528817,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1761667776,
+    "wof:lastmodified": 1761668367,
     "wof:name": "UA3860 (IAD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
