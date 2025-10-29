@@ -1,0 +1,72 @@
+{
+  "id": 1981788513,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-10-28",
+    "date:inception_upper": "2025-10-28",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-10-28",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "MX",
+    "flysfo:date": "2025-10-28",
+    "flysfo:estimated_timestamp": -1,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "MX123",
+    "flysfo:gate": "",
+    "flysfo:journey": "BOS-SFO",
+    "flysfo:scheduled_timestamp": 1761700500,
+    "flysfo:timestamp": 1761700500,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-71.014750,42.362322",
+    "geom:latitude": 39.990156,
+    "geom:longitude": -96.6928465,
+    "iata:airline": "MX",
+    "icao:airline": "MXY",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1763552131,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102530741,
+    "sfomuseum:flight_id": "20251028-A-MXY-123",
+    "sfomuseum:flight_number": [
+      "MXY123",
+      "MX123"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1761754020,
+    "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981788513,
+        "flight_id": 1981788513
+      }
+    ],
+    "wof:id": 1981788513,
+    "wof:involves": [
+      102527513,
+      102530741,
+      1763552131,
+      -1
+    ],
+    "wof:lastmodified": 1761754020,
+    "wof:name": "MX123 (BOS-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-10",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -71.01475,
+    42.362322
+  ],
+  "geometry": {"coordinates":[[-71.01475,42.362322],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
