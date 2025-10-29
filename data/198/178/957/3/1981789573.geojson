@@ -2,10 +2,12 @@
   "id": 1981789573,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-28",
+    "date:cessation_upper": "2025-10-28",
     "date:inception_lower": "2025-10-28",
     "date:inception_upper": "2025-10-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-28",
+    "edtf:cessation": "2025-10-28T12:25:08-07:00",
+    "edtf:inception": "2025-10-28T20:52:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.4509355,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "VOZ",
     "lbl:latitude": 37.618486,
     "lbl:longitude": -122.384457,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251028-A-VOZ-8295",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17591",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114491053",
+      "swim:gufi": "KR717293iH"
+    },
     "wof:country": "US",
     "wof:created": 1761754143,
     "wof:geomhash": "e5ae5d1ea61206da1f1e1104d6bc1bb7",
@@ -92,9 +106,10 @@
       102533243,
       1159285413,
       1947304525,
-      1159285485
+      1159285485,
+      1528104577
     ],
-    "wof:lastmodified": 1761754143,
+    "wof:lastmodified": 1761754696,
     "wof:name": "UA794 (TPA-SFO)",
     "wof:parent_id": 1947304525,
     "wof:placetype": "custom",

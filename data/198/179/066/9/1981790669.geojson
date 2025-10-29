@@ -2,10 +2,12 @@
   "id": 1981790669,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-29",
+    "date:cessation_upper": "2025-10-29",
     "date:inception_lower": "2025-10-28",
     "date:inception_upper": "2025-10-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-28",
+    "edtf:cessation": "2025-10-29T06:08:40Z",
+    "edtf:inception": "2025-10-28T19:37:33Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "NH",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114562068"
+    },
     "wof:country": "US",
     "wof:created": 1761754267,
     "wof:geomhash": "b0708fbc9882ec26729f19c3bf135279",
@@ -94,7 +99,7 @@
       1947304159,
       1159285639
     ],
-    "wof:lastmodified": 1761754267,
+    "wof:lastmodified": 1761754667,
     "wof:name": "NH7 (SFO-NRT)",
     "wof:parent_id": 1947304159,
     "wof:placetype": "custom",

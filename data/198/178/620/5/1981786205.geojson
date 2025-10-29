@@ -2,10 +2,12 @@
   "id": 1981786205,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-28",
+    "date:cessation_upper": "2025-10-28",
     "date:inception_lower": "2025-10-28",
     "date:inception_upper": "2025-10-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-28",
+    "edtf:cessation": "2025-10-28T20:39:00Z",
+    "edtf:inception": "2025-10-28T16:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "icao:base_airline": "QFA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251028-A-QFA-4922",
@@ -39,7 +43,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N838NN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "114460010",
+      "swim:gufi": "KG48633300"
+    },
     "wof:country": "US",
     "wof:created": 1761753742,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -51,13 +64,13 @@
     ],
     "wof:id": 1981786205,
     "wof:involves": [
+      1159285043,
+      1159289871,
       102527513,
       102533631,
-      1159283849,
-      -1,
-      1159285043
+      1159283849
     ],
-    "wof:lastmodified": 1761753742,
+    "wof:lastmodified": 1761754664,
     "wof:name": "AA948 (ORD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

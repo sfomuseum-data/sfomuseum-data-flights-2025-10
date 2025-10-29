@@ -2,10 +2,12 @@
   "id": 1981791301,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-28",
+    "date:cessation_upper": "2025-10-28",
     "date:inception_lower": "2025-10-28",
     "date:inception_upper": "2025-10-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-28",
+    "edtf:cessation": "2025-10-28T22:11:50Z",
+    "edtf:inception": "2025-10-28T19:06:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102536481,
     "sfomuseum:base_flight_id": "20251028-D-AAL-7650",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N734AL",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114481041",
+      "swim:gufi": "KO63733300"
+    },
     "wof:country": "US",
     "wof:created": 1761754338,
     "wof:geomhash": "ae49e61cad725fa4577f8355bb7297ad",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981791301,
     "wof:involves": [
+      1947304267,
+      1159283849,
+      1528104577,
       102536481,
       102527513,
-      1159283813,
-      1947304267,
-      1159283849
+      1159283813
     ],
-    "wof:lastmodified": 1761754338,
+    "wof:lastmodified": 1761754671,
     "wof:name": "AS689 (SFO-PVR)",
     "wof:parent_id": 1947304267,
     "wof:placetype": "custom",

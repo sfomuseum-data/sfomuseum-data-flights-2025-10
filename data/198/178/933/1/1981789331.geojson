@@ -2,10 +2,12 @@
   "id": 1981789331,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-28",
+    "date:cessation_upper": "2025-10-28",
     "date:inception_lower": "2025-10-28",
     "date:inception_upper": "2025-10-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-28",
+    "edtf:cessation": "2025-10-28T21:41:27Z",
+    "edtf:inception": "2025-10-28T19:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-10-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 44.368758,
     "geom:longitude": -118.1959315,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102554947,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +55,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114508286",
+      "swim:gufi": "KS67170300"
+    },
     "wof:country": "US",
     "wof:created": 1761754115,
     "wof:geomhash": "4b8d850891e12dfac0a460ee51cd363b",
@@ -83,12 +94,13 @@
     ],
     "wof:id": 1981789331,
     "wof:involves": [
+      1159289871,
       102527513,
       102554947,
       1159285413,
       1947304131
     ],
-    "wof:lastmodified": 1761754115,
+    "wof:lastmodified": 1761754693,
     "wof:name": "UA3033 (YYC-SFO)",
     "wof:parent_id": 1947304131,
     "wof:placetype": "custom",

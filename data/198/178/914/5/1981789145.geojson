@@ -2,10 +2,12 @@
   "id": 1981789145,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-28",
+    "date:cessation_upper": "2025-10-28",
     "date:inception_lower": "2025-10-28",
     "date:inception_upper": "2025-10-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-28",
+    "edtf:cessation": "2025-10-28T22:44:00Z",
+    "edtf:inception": "2025-10-28T19:07:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.006986,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251028-A-ACA-3965",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N875UA",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +61,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114475359",
+      "swim:gufi": "KH614013E2"
+    },
     "wof:country": "US",
     "wof:created": 1761754094,
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
@@ -92,9 +104,10 @@
       102521851,
       1159285413,
       1947304609,
-      1159283597
+      1159283597,
+      1159289407
     ],
-    "wof:lastmodified": 1761754094,
+    "wof:lastmodified": 1761754690,
     "wof:name": "UA1749 (AUS-SFO)",
     "wof:parent_id": 1947304609,
     "wof:placetype": "custom",
