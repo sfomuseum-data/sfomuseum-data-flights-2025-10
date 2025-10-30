@@ -1,0 +1,72 @@
+{
+  "id": 1981800057,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2025-10-29",
+    "date:inception_upper": "2025-10-29",
+    "edtf:cessation": "",
+    "edtf:inception": "2025-10-29",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2025-10-29",
+    "flysfo:estimated_timestamp": 1761758100,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL8926",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-MKE",
+    "flysfo:scheduled_timestamp": 1761757200,
+    "flysfo:timestamp": 1761758100,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-87.896339,42.949572",
+    "geom:latitude": 40.283781000000005,
+    "geom:longitude": -105.133641,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102530849,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20251029-D-DAL-8926",
+    "sfomuseum:flight_number": [
+      "DAL8926",
+      "DL8926"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1761840762,
+    "wof:geomhash": "85f13befc363c1b91d2a48be031a5d6a",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1981800057,
+        "flight_id": 1981800057
+      }
+    ],
+    "wof:id": 1981800057,
+    "wof:involves": [
+      102530849,
+      102527513,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1761840762,
+    "wof:name": "DL8926 (SFO-MKE)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2025-10",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -87.896339,
+    42.949572
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-87.896339,42.949572]],"type":"MultiPoint"}
+}
