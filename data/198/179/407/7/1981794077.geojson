@@ -2,10 +2,12 @@
   "id": 1981794077,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-29",
+    "date:cessation_upper": "2025-10-29",
     "date:inception_lower": "2025-10-29",
     "date:inception_upper": "2025-10-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-29",
+    "edtf:cessation": "2025-10-29T04:16:02-07:00",
+    "edtf:inception": "2025-10-29T12:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "icao:base_airline": "GLO",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251029-A-GLO-6252",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N304UF",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114525375",
+      "swim:gufi": "KR396344R3"
+    },
     "wof:country": "US",
     "wof:created": 1761840099,
     "wof:geomhash": "38f88108bbae8bb050c3144d37bdc384",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981794077,
     "wof:involves": [
+      1947304309,
+      1779770725,
+      1528104575,
       102527513,
       102531023,
-      1159283849,
-      1947304309,
-      1779770725
+      1159283849
     ],
-    "wof:lastmodified": 1761840099,
+    "wof:lastmodified": 1761841019,
     "wof:name": "AA1557 (MIA-SFO)",
     "wof:parent_id": 1947304309,
     "wof:placetype": "custom",

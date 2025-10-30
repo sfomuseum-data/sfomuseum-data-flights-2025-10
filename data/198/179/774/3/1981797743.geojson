@@ -2,10 +2,12 @@
   "id": 1981797743,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-29",
+    "date:cessation_upper": "2025-10-29",
     "date:inception_lower": "2025-10-29",
     "date:inception_upper": "2025-10-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-29",
+    "edtf:cessation": "2025-10-29T01:30:38-07:00",
+    "edtf:inception": "2025-10-29T10:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.315247,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "CCA",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251029-A-CCA-7303",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17331",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114522085",
+      "swim:gufi": "KC35742400"
+    },
     "wof:country": "US",
     "wof:created": 1761840519,
     "wof:geomhash": "1bce6af8a92006379b4194e1695731d3",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981797743,
     "wof:involves": [
+      1159283605,
+      1528104575,
       102527513,
       102528181,
       1159285413,
-      1947304519,
-      1159283605
+      1947304519
     ],
-    "wof:lastmodified": 1761840519,
+    "wof:lastmodified": 1761841046,
     "wof:name": "UA643 (PIT-SFO)",
     "wof:parent_id": 1947304519,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981799555,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-29",
+    "date:cessation_upper": "2025-10-29",
     "date:inception_lower": "2025-10-29",
     "date:inception_upper": "2025-10-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-29",
+    "edtf:cessation": "2025-10-29T17:54:29Z",
+    "edtf:inception": "2025-10-29T16:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2025-10-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N585AS",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "114596333",
+      "swim:gufi": "KO58818400"
+    },
     "wof:country": "US",
     "wof:created": 1761840709,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -46,12 +60,12 @@
     ],
     "wof:id": 1981799555,
     "wof:involves": [
-      102528997,
-      102527513,
       1159283813,
-      -1
+      1159289871,
+      102528997,
+      102527513
     ],
-    "wof:lastmodified": 1761840709,
+    "wof:lastmodified": 1761841042,
     "wof:name": "AS9805 (SFO-SAN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

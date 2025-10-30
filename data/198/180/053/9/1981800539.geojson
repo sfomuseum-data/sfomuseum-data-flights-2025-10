@@ -2,10 +2,12 @@
   "id": 1981800539,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-29",
+    "date:cessation_upper": "2025-10-29",
     "date:inception_lower": "2025-10-29",
     "date:inception_upper": "2025-10-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-29",
+    "edtf:cessation": "2025-10-29T08:16:28Z",
+    "edtf:inception": "2025-10-29T03:10:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "HA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114514763"
+    },
     "wof:country": "US",
     "wof:created": 1761840812,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -94,7 +99,7 @@
       1947304263,
       1159283813
     ],
-    "wof:lastmodified": 1761840812,
+    "wof:lastmodified": 1761841025,
     "wof:name": "HA861 (SFO-HNL)",
     "wof:parent_id": 1947304263,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1981799965,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-30",
+    "date:cessation_upper": "2025-10-30",
     "date:inception_lower": "2025-10-29",
     "date:inception_upper": "2025-10-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-29",
+    "edtf:cessation": "2025-10-30T02:30:00Z",
+    "edtf:inception": "2025-10-29T22:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "KLM",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:base_flight_id": "20251029-D-KLM-7385",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N174DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,9 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114575485"
+    },
     "wof:country": "US",
     "wof:created": 1761840752,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1981799965,
     "wof:involves": [
+      1159284613,
+      1159289965,
       102526927,
       102527513,
       1159284261,
-      1947304681,
-      1159284613
+      1947304681
     ],
-    "wof:lastmodified": 1761840752,
+    "wof:lastmodified": 1761841042,
     "wof:name": "DL1382 (SFO-ATL)",
     "wof:parent_id": 1947304681,
     "wof:placetype": "custom",

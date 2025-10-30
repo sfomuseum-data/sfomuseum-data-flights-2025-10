@@ -2,10 +2,12 @@
   "id": 1981795927,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-29",
+    "date:cessation_upper": "2025-10-29",
     "date:inception_lower": "2025-10-29",
     "date:inception_upper": "2025-10-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-29",
+    "edtf:cessation": "2025-10-29T03:02:08-07:00",
+    "edtf:inception": "2025-10-29T12:47:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -102.86132599999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251029-A-KAL-3470",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N590NW",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304591,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114528054",
+      "swim:gufi": "KC42061402"
+    },
     "wof:country": "US",
     "wof:created": 1761840323,
     "wof:geomhash": "a23858bb4e93419105e139a22bd92749",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981795927,
     "wof:involves": [
+      1159289945,
       102527513,
       102525635,
       1159284261,
       1947304671,
       1159284625
     ],
-    "wof:lastmodified": 1761840323,
+    "wof:lastmodified": 1761841035,
     "wof:name": "DL361 (DTW-SFO)",
     "wof:parent_id": 1947304671,
     "wof:placetype": "custom",
