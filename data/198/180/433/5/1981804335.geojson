@@ -2,10 +2,12 @@
   "id": 1981804335,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-30",
+    "date:cessation_upper": "2025-10-30",
     "date:inception_lower": "2025-10-30",
     "date:inception_upper": "2025-10-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-30",
+    "edtf:cessation": "2025-10-30T06:05:28-07:00",
+    "edtf:inception": "2025-10-30T14:37:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "LAN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251030-A-LAN-7909",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N178DN",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114609710",
+      "swim:gufi": "KN43861503"
+    },
     "wof:country": "US",
     "wof:created": 1761926745,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1981804335,
     "wof:involves": [
+      1159289965,
       102527513,
       102534365,
       1159284261,
       1947304281,
       1159285641
     ],
-    "wof:lastmodified": 1761926745,
+    "wof:lastmodified": 1761927500,
     "wof:name": "DL409 (JFK-SFO)",
     "wof:parent_id": 1947304281,
     "wof:placetype": "custom",

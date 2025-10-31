@@ -2,10 +2,12 @@
   "id": 1981803103,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-30",
+    "date:cessation_upper": "2025-10-30",
     "date:inception_lower": "2025-10-30",
     "date:inception_upper": "2025-10-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-30",
+    "edtf:cessation": "2025-10-30T19:57:00Z",
+    "edtf:inception": "2025-10-30T15:40:06Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AM",
     "flysfo:base_airline": "",
@@ -24,6 +26,7 @@
     "geom:longitude": -110.7258735,
     "iata:airline": "AM",
     "iata:base_airline": "",
+    "icao:aircraft": "CH20",
     "icao:airline": "AMX",
     "icao:base_airline": "DAL",
     "lbl:latitude": 37.61799,
@@ -39,6 +42,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N368AM",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +61,9 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114618501"
+    },
     "wof:country": "US",
     "wof:created": 1761926608,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -94,7 +105,7 @@
       1947304081,
       1159284261
     ],
-    "wof:lastmodified": 1761926608,
+    "wof:lastmodified": 1761927492,
     "wof:name": "AM668 (MEX-SFO)",
     "wof:parent_id": 1947304081,
     "wof:placetype": "custom",

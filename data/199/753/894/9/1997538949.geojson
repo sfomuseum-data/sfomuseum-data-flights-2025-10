@@ -2,10 +2,12 @@
   "id": 1997538949,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-31",
+    "date:cessation_upper": "2025-10-31",
     "date:inception_lower": "2025-10-30",
     "date:inception_upper": "2025-10-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-30",
+    "edtf:cessation": "2025-10-31T06:53:00Z",
+    "edtf:inception": "2025-10-30T12:29:26-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2025-10-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533657,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37293",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO05467600"
+    },
     "wof:country": "US",
     "wof:created": 1761927392,
     "wof:geomhash": "33c9625a4901edf29154e5ec4b308b8b",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1997538949,
     "wof:involves": [
-      102533657,
-      102527513,
       1159285413,
-      1947304491
+      1947304491,
+      1159289871,
+      102533657,
+      102527513
     ],
-    "wof:lastmodified": 1761927392,
+    "wof:lastmodified": 1761927500,
     "wof:name": "UA3870 (SFO-MCO)",
     "wof:parent_id": 1947304491,
     "wof:placetype": "custom",
