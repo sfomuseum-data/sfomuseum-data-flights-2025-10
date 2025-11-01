@@ -2,10 +2,12 @@
   "id": 1997541013,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-10-31",
-    "date:inception_upper": "2025-10-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-31",
+    "date:cessation_lower": "2025-10-31",
+    "date:cessation_upper": "2025-10-31",
+    "date:inception_lower": "2025-11-01",
+    "date:inception_upper": "2025-11-01",
+    "edtf:cessation": "2025-10-31T16:52:43-07:00",
+    "edtf:inception": "2025-11-01T01:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.859366,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251031-A-HAL-4914",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N514AS",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114669598",
+      "swim:gufi": "KO19324700"
+    },
     "wof:country": "US",
     "wof:created": 1762013087,
     "wof:geomhash": "46fccc0e56242535ccfd5ecb278f9a75",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1997541013,
     "wof:involves": [
+      1947304275,
+      1159284489,
+      1159289871,
       102527513,
       102528943,
-      1159283813,
-      1947304275,
-      1159284489
+      1159283813
     ],
-    "wof:lastmodified": 1762013087,
+    "wof:lastmodified": 1762013869,
     "wof:name": "AS788 (LIH-SFO)",
     "wof:parent_id": 1947304275,
     "wof:placetype": "custom",

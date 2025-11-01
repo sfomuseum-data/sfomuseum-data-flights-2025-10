@@ -2,10 +2,12 @@
   "id": 1997542031,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-31",
+    "date:cessation_upper": "2025-10-31",
     "date:inception_lower": "2025-10-31",
     "date:inception_upper": "2025-10-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-31",
+    "edtf:cessation": "2025-10-31T23:06:00Z",
+    "edtf:inception": "2025-10-31T17:46:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "B6",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "B6",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "JBU",
     "icao:base_airline": "ETD",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284583,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251031-A-ETD-8326",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N4077J",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +62,10 @@
       1947304069,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114708713",
+      "swim:gufi": "KN50987600"
+    },
     "wof:country": "US",
     "wof:created": 1762013203,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -92,9 +105,10 @@
       102534365,
       1159284583,
       1947304095,
-      1159285587
+      1159285587,
+      1377564297
     ],
-    "wof:lastmodified": 1762013203,
+    "wof:lastmodified": 1762013870,
     "wof:name": "B6115 (JFK-SFO)",
     "wof:parent_id": 1947304095,
     "wof:placetype": "custom",

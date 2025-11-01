@@ -2,10 +2,12 @@
   "id": 1997541029,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2025-10-31",
-    "date:inception_upper": "2025-10-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-31",
+    "date:cessation_lower": "2025-10-31",
+    "date:cessation_upper": "2025-10-31",
+    "date:inception_lower": "2025-11-01",
+    "date:inception_upper": "2025-11-01",
+    "edtf:cessation": "2025-10-31T12:04:30-07:00",
+    "edtf:inception": "2025-11-01T00:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2025-10-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.621838,
     "geom:longitude": -119.95142949999999,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533331,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N952AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,9 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS83054601"
+    },
     "wof:country": "US",
     "wof:created": 1762013089,
     "wof:geomhash": "a4e0879e5fc6968e3e72ecbd42744790",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1997541029,
     "wof:involves": [
+      1947304297,
+      1528104577,
       102527513,
       102533331,
-      1159283813,
-      1947304297
+      1159283813
     ],
-    "wof:lastmodified": 1762013089,
+    "wof:lastmodified": 1762013869,
     "wof:name": "AS9723 (GEG-SFO)",
     "wof:parent_id": 1947304297,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1997542987,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-11-01",
+    "date:cessation_upper": "2025-11-01",
     "date:inception_lower": "2025-10-31",
     "date:inception_upper": "2025-10-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-31",
+    "edtf:cessation": "2025-10-31T23:54:34-07:00",
+    "edtf:inception": "2025-10-31T12:24:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.2977885,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20251031-A-ACA-3995",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N37255",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -53,6 +63,10 @@
       1947304447,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114690495",
+      "swim:gufi": "KU41463600"
+    },
     "wof:country": "US",
     "wof:created": 1762013311,
     "wof:geomhash": "e506e1cc6e68aaf992ce3bac53e4e4fa",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1997542987,
     "wof:involves": [
-      102527513,
       102527733,
       1159285413,
       1947304519,
-      1159283597
+      1159283597,
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1762013311,
+    "wof:lastmodified": 1762013858,
     "wof:name": "UA329 (BOI-SFO)",
     "wof:parent_id": 1947304519,
     "wof:placetype": "custom",

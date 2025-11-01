@@ -2,10 +2,12 @@
   "id": 1997545011,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2025-10-31",
+    "date:cessation_upper": "2025-10-31",
     "date:inception_lower": "2025-10-31",
     "date:inception_upper": "2025-10-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2025-10-31",
+    "edtf:cessation": "2025-10-31T19:27:00Z",
+    "edtf:inception": "2025-10-31T05:02:43-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2025-10-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.1517615,
     "geom:longitude": -121.98042749999999,
     "iata:airline": "AS",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102530559,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N952AK",
     "wof:belongsto": [
       1947304067,
       102527513,
@@ -48,6 +58,10 @@
       1947304259,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "114722964",
+      "swim:gufi": "KO62895600"
+    },
     "wof:country": "US",
     "wof:created": 1762013536,
     "wof:geomhash": "5cb31017412a00ced54cc35c2a74371e",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1997545011,
     "wof:involves": [
+      1528104577,
       102530559,
       102527513,
       1159283813,
       1947304385
     ],
-    "wof:lastmodified": 1762013536,
+    "wof:lastmodified": 1762013872,
     "wof:name": "AS9722 (SFO-SMF)",
     "wof:parent_id": 1947304385,
     "wof:placetype": "custom",
